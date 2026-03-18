@@ -1,0 +1,14 @@
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.AssemblyInfoInputs.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.AssemblyInfo.cs
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.csproj.CoreCompileInputs.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\bin\Debug\net8.0\ZooPatterns.exe
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\bin\Debug\net8.0\ZooPatterns.deps.json
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\bin\Debug\net8.0\ZooPatterns.runtimeconfig.json
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\bin\Debug\net8.0\ZooPatterns.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\bin\Debug\net8.0\ZooPatterns.pdb
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\refint\ZooPatterns.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.pdb
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.genruntimeconfig.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ref\ZooPatterns.dll
