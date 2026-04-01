@@ -12,3 +12,4 @@ C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\
 C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.pdb
 C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.genruntimeconfig.cache
 C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ref\ZooPatterns.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\1lab\Lab1\ZooPatterns\obj\Debug\net8.0\ZooPatterns.sourcelink.json

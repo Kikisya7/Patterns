@@ -6,6 +6,17 @@ using ZooPatterns.AbstractFactory;
 using ZooPatterns.Builder;
 using ZooPatterns.Prototype;
 
+// Structural
+using ZooPatterns.Structural.Adapter;
+using ZooPatterns.Structural.Bridge;
+using ZooPatterns.Structural.Composite;
+using ZooPatterns.Structural.Decorator;
+using ZooPatterns.Structural.Facade;
+using ZooPatterns.Structural.Proxy;
+
+
+using FlyweightFactory = ZooPatterns.Structural.Flyweight.TigerFactory;
+
 class Program
 {
     static void Main()
@@ -16,6 +27,7 @@ class Program
         var zoo = Zoo.GetInstance();
         Console.WriteLine("Зоопарк відкритий? 1 - Так, 2 - Ні");
         string openChoice = Console.ReadLine();
+
         if (openChoice == "1")
         {
             zoo.Open();
@@ -28,12 +40,12 @@ class Program
             return;
         }
 
-        // -------------------- Выбор животного --------------------
-        Console.WriteLine("\nС каким животным работать? (tiger/elephant)");
+        // -------------------- Вибір тварини --------------------
+        Console.WriteLine("\nЗ якою твариною працювати? (tiger/elephant)");
         string choice = Console.ReadLine()?.ToLower();
         string animalName = choice == "tiger" ? "Тигр" : "Слон";
 
-        Console.WriteLine($"\nРаботаем с {animalName}...\n");
+        Console.WriteLine($"\nПрацюємо з {animalName}...\n");
 
         // -------------------- Factory --------------------
         Console.WriteLine("--- Factory ---");
@@ -53,9 +65,13 @@ class Program
 
         // -------------------- Abstract Factory --------------------
         Console.WriteLine("\n--- Abstract Factory ---");
-        IZooFactory abstractFactory = choice == "tiger" ? new TigerFactory() : new ElephantFactory();
+        IZooFactory abstractFactory = choice == "tiger"
+            ? new ZooPatterns.AbstractFactory.TigerFactory()
+            : new ZooPatterns.AbstractFactory.ElephantFactory();
+
         var food = abstractFactory.CreateFood();
         var enclosure = abstractFactory.CreateEnclosure();
+
         Console.Write($"{animalName} ");
         food.Eat();
         Console.Write($"{animalName} ");
@@ -74,8 +90,52 @@ class Program
         var cloneAnimal = originalAnimal.Clone();
         cloneAnimal.Show();
 
-        // -------------------- Закриття зоопарку --------------------
+        // ==================== STRUCTURAL ====================
+        Console.WriteLine("\n==================== STRUCTURAL PATTERNS ====================");
+
+        // Adapter
+        Console.WriteLine("\n--- Adapter ---");
+        ZooPatterns.Structural.Adapter.IAnimal adapter = new TigerAdapter();
+        adapter.Speak();
+
+        // Bridge
+        Console.WriteLine("\n--- Bridge ---");
+        var bridgeAnimal = new ZooPatterns.Structural.Bridge.Tiger(new RoarBehavior());
+        bridgeAnimal.Speak();
+
+        // Composite
+        Console.WriteLine("\n--- Composite ---");
+        var group = new AnimalGroup();
+        group.Add(new ZooPatterns.Structural.Composite.Tiger());
+        group.Add(new ZooPatterns.Structural.Composite.Elephant());
+        group.Speak();
+
+        // Decorator
+        Console.WriteLine("\n--- Decorator ---");
+        ZooPatterns.Structural.Decorator.IAnimal decorated =
+            new LoudTiger(new ZooPatterns.Structural.Decorator.Tiger());
+        decorated.Speak();
+
+        // Facade
+        Console.WriteLine("\n--- Facade ---");
+        var facade = new ZooFacade();
+        facade.ShowAll();
+
+        // Flyweight
+        Console.WriteLine("\n--- Flyweight ---");
+        var factoryFly = new FlyweightFactory();
+        var t1 = factoryFly.GetTiger("білий");
+        var t2 = factoryFly.GetTiger("білий");
+        t1.Speak();
+        t2.Speak();
+
+        // Proxy
+        Console.WriteLine("\n--- Proxy ---");
+        ZooPatterns.Structural.Proxy.IAnimal proxy = new TigerProxy();
+        proxy.Speak();
+
+        // -------------------- Закриття --------------------
         zoo.Close();
-        Console.WriteLine($"\nЗоопарк: {zoo.State} — виходьте!");
+        Console.WriteLine($"\nЗоопарк: {zoo.State} — До зустрічі!");
     }
 }
