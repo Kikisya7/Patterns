@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Adapter
+namespace ZooPatterns.Structural.Adapter //якщо не підходить класс
 {
     public interface IAnimal
     {
@@ -18,7 +18,7 @@ namespace ZooPatterns.Structural.Adapter
         private WeirdTiger adaptee = new();
 
         public void Speak()
-        {
+                 {
             Console.WriteLine(" Незвичайна тварина поводиться як тигр:");
             adaptee.RealSpeak();
         }

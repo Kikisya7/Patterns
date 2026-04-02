@@ -1,5 +1,5 @@
-namespace ZooPatterns.Structural.Proxy
-{
+namespace ZooPatterns.Structural.Proxy //замінник об'єкта + контроль доступу
+{ 
     public interface IAnimal
     {
         void Speak();

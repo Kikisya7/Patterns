@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Decorator
+namespace ZooPatterns.Structural.Decorator //+нова поведінка
 {
     public interface IAnimal
     {

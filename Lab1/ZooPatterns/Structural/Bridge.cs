@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Bridge
+namespace ZooPatterns.Structural.Bridge //розділ абрстракції та реалізації
 {
     public interface ISound
     {

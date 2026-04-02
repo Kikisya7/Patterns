@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Composite
+namespace ZooPatterns.Structural.Composite //працюємо з группою об'єктів як з одним
 {
     public interface IAnimal
     {

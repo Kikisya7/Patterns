@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Flyweight
+namespace ZooPatterns.Structural.Flyweight //економія пам'яті
 {
     public class Tiger
     {

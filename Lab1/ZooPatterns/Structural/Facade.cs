@@ -1,4 +1,4 @@
-namespace ZooPatterns.Structural.Facade
+namespace ZooPatterns.Structural.Facade //-складна система
 {
     public class Tiger
     {
