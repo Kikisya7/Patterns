@@ -1,0 +1,14 @@
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\bin\Debug\net8.0\LambdaTasks.exe
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\bin\Debug\net8.0\LambdaTasks.deps.json
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\bin\Debug\net8.0\LambdaTasks.runtimeconfig.json
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\bin\Debug\net8.0\LambdaTasks.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\bin\Debug\net8.0\LambdaTasks.pdb
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.AssemblyInfoInputs.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.AssemblyInfo.cs
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.csproj.CoreCompileInputs.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\refint\LambdaTasks.dll
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.pdb
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\LambdaTasks.genruntimeconfig.cache
+C:\Users\Kikisya\Desktop\Лаб\паттерн проек\4lab\LambdaTasks\obj\Debug\net8.0\ref\LambdaTasks.dll
