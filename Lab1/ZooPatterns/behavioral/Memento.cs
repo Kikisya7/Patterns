@@ -1,6 +1,6 @@
 namespace ZooPatterns.Behavioral.Memento
 {
-    public class Memento
+    public class Memento //сохранение состояния
     {
         public string State;
 

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ZooPatterns.Behavioral.Command
+namespace ZooPatterns.Behavioral.Command //дія- це об'єкт
 {
     public class Invoker
     {
@@ -17,7 +17,7 @@ namespace ZooPatterns.Behavioral.Command
             {
                 command.Execute();
             }
-            commands.Clear(); // после выполнения очищаем список
+            commands.Clear(); 
         }
     }
 }

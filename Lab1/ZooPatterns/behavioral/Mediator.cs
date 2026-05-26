@@ -1,6 +1,6 @@
 namespace ZooPatterns.Behavioral.Mediator
 {
-    public class ZooMediator
+    public class ZooMediator //спілкування через посередників
     {
         public void Notify(string message)
         {

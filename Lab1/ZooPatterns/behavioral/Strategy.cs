@@ -5,7 +5,7 @@ namespace ZooPatterns.Behavioral.Strategy
         void Act();
     }
 
-    public class TigerStrategy : IStrategy
+    public class TigerStrategy : IStrategy //вибір поведінки
     {
         public void Act()
         {

@@ -1,6 +1,6 @@
 namespace ZooPatterns.Behavioral.Observer
 {
-    public class Zoo
+    public class Zoo //підписка на дії
     {
         public event Action Notify;
 

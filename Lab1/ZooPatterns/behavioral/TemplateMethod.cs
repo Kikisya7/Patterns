@@ -12,7 +12,7 @@ namespace ZooPatterns.Behavioral.TemplateMethod
         protected abstract void Move();
     }
 
-    public class Tiger : Animal
+    public class Tiger : Animal //шаблон алгоритму
     {
         protected override void Eat()
         {

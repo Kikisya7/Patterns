@@ -5,7 +5,7 @@ namespace ZooPatterns.Behavioral.State
         void Handle();
     }
 
-    public class OpenState : IState
+    public class OpenState : IState //Поведінка від стану
     {
         public void Handle()
         {

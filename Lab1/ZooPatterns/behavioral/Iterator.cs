@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ZooPatterns.Behavioral.Iterator
+namespace ZooPatterns.Behavioral.Iterator //перебира коллекцію
 {
     public class ZooCollection
     {
@@ -10,7 +10,7 @@ namespace ZooPatterns.Behavioral.Iterator
             " Слон"
         };
 
-        // ВАЖНО: IEnumerable, а не IEnumerator
+        
         public IEnumerable<string> GetIterator()
         {
             return animals;

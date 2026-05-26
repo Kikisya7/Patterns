@@ -6,7 +6,7 @@ namespace ZooPatterns.Behavioral.Visitor
         void VisitElephant(Elephant elephant);
     }
 
-    public class Tiger
+    public class Tiger //нові дії без зміни классу
     {
         public void Accept(IVisitor visitor)
         {

@@ -1,4 +1,4 @@
-namespace ZooPatterns.Behavioral.ChainOfResponsibility
+namespace ZooPatterns.Behavioral.ChainOfResponsibility //Передає по цепочкі
 {
     public abstract class Handler
     {
