@@ -4,16 +4,20 @@ namespace ZooPatterns.Functional
     {
         public void Execute()
         {
-            Action tiger = () =>
-                Console.WriteLine(" Тигр ричить");
+            Action tiger = () => Console.WriteLine("Тигр ричить");
+            Action elephant = () => Console.WriteLine("Слон гуляє");
 
-            Action loudTiger = () =>
+            Action loudDecorator(Action action) => () =>
             {
-                Console.WriteLine(" Дуже голосно!");
-                tiger();
+                Console.WriteLine("Дуже голосно!");
+                action();
             };
 
+            var loudTiger = loudDecorator(tiger);
+            var loudElephant = loudDecorator(elephant);
+
             loudTiger();
+            loudElephant();
         }
     }
 }

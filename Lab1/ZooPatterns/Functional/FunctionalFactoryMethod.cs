@@ -4,18 +4,19 @@ namespace ZooPatterns.Functional
     {
         public void Execute()
         {
-            Func<string, string> animalFactory = type =>
-            {
-                return type switch
+            Func<string, Action> animalFactory = type =>
+                type switch
                 {
-                    "tiger" => " Створено тигра",
-                    "elephant" => " Створено слона",
-                    _ => " Невідома тварина"
+                    "tiger" => () => Console.WriteLine("Тигр створений і ричить"),
+                    "elephant" => () => Console.WriteLine("Слон створений і гуляє"),
+                    _ => () => Console.WriteLine("Невідома тварина")
                 };
-            };
 
-            Console.WriteLine(animalFactory("tiger"));
-            Console.WriteLine(animalFactory("elephant"));
+            var tiger = animalFactory("tiger");
+            var elephant = animalFactory("elephant");
+
+            tiger();
+            elephant();
         }
     }
 }

@@ -4,14 +4,13 @@ namespace ZooPatterns.Functional
     {
         public void Execute()
         {
-            Action tiger = () =>
-                Console.WriteLine(" Тигр полює");
+            RunAnimalBehavior(() => Console.WriteLine("Тигр полює"));
+            RunAnimalBehavior(() => Console.WriteLine("Слон гуляє"));
+        }
 
-            Action elephant = () =>
-                Console.WriteLine(" Слон гуляє");
-
-            tiger();
-            elephant();
+        private void RunAnimalBehavior(Action behavior)
+        {
+            behavior();
         }
     }
 }
